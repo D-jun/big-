@@ -2,7 +2,53 @@
   padding: 0;
   margin: 0;
 }
-.logo {
+html,
+body {
   width: 100%;
   height: 100%;
+}
+
+body {
+  background: url(/assets/images/login_bg.jpg) center/cover;
+  overflow: hidden;
+}
+.logo {
+  padding: 20px 0 0 40px;
+}
+
+.loginAndResi {
+  width: 400px;
+  height: 310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+.loginAndResi .title {
+  height: 60px;
+  line-height: 60px;
+  background: url(/assets/images/login_title.png) no-repeat center;
+}
+.layui-form {
+  padding: 0 30px;
+}
+#gotoLogin,
+#gotoRegi {
+  float: right;
+}
+.layui-form-item {
+  position: relative;
+}
+.layui-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.layui-input {
+  padding-left: 30px;
+}
+.regiBox {
+  display: none;
 }
