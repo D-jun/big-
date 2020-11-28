@@ -8,6 +8,7 @@
 .layui-body iframe {
   width: 100%;
   height: 100%;
+  background-color: skyblue;
 }
 .layui-body {
   overflow: hidden;
